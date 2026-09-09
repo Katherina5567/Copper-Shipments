@@ -683,11 +683,11 @@
       </div>
       <div class="home-status-row">
         <div class="l-left"><span class="sw" style="background:#3ddc97"></span>В пути (Турция)</div>
-        <div class="l-right">274 мт <span class="dim">· 11 конт.</span><span class="sub">2 лота</span></div>
+        <div class="l-right">1&nbsp;524 мт <span class="dim">· 63 конт.</span><span class="sub">2 лота</span></div>
       </div>
       <div class="home-status-row">
         <div class="l-left"><span class="sw" style="background:#38bdf8"></span>Доставлено</div>
-        <div class="l-right">29&nbsp;951 мт <span class="dim">· 1&nbsp;087 конт.</span><span class="sub">53 лотов</span></div>
+        <div class="l-right">33&nbsp;101 мт <span class="dim">· 1&nbsp;241 конт.</span><span class="sub">53 лотов</span></div>
       </div></div>
     </div>
 
@@ -1949,7 +1949,7 @@
     <div class="tabs" id="tabs"><div class="tab" data-status="Railway" style="--accent: #7c7bff;">
     <div class="name"><span class="dot" style="background:#7c7bff"></span>Ж/Д (Балхаш → Актау)</div>
     <div class="nums"><span class="mt">0,0 мт</span><span class="lots">0 лота</span></div>
-  </div><div class="tab" data-status="Aktau port" style="--accent: #f4a93f;">
+  </div><div class="tab active" data-status="Aktau port" style="--accent: #f4a93f;">
     <div class="name"><span class="dot" style="background:#f4a93f"></span>Порт Актау</div>
     <div class="nums"><span class="mt">2&nbsp;032,2 мт</span><span class="lots">5 лотов</span></div>
   </div><div class="tab" data-status="Sea" style="--accent: #5ec9f0;">
@@ -1958,7 +1958,7 @@
   </div><div class="tab" data-status="Baku port" style="--accent: #2dd4d4;">
     <div class="name"><span class="dot" style="background:#2dd4d4"></span>Порт Баку / Алят</div>
     <div class="nums"><span class="mt">3&nbsp;238,7 мт</span><span class="lots">5 лотов</span></div>
-  </div><div class="tab active" data-status="Georgia" style="--accent: #a78bfa;">
+  </div><div class="tab" data-status="Georgia" style="--accent: #a78bfa;">
     <div class="name"><span class="dot" style="background:#a78bfa"></span>В пути (Грузия)</div>
     <div class="nums"><span class="mt">2&nbsp;056,8 мт</span><span class="lots">3 лота</span></div>
   </div><div class="tab" data-status="Ontheway" style="--accent: #3ddc97;">
@@ -1977,33 +1977,33 @@
 
     <div class="month-filter-row">
       <label for="monthFilter" class="dim" style="font-size:12.5px;">Месяц:</label>
-      <select id="monthFilter"><option value="all">Все месяцы</option><option value="July 26">July 26</option></select>
+      <select id="monthFilter"><option value="all">Все месяцы</option><option value="August 26">August 26</option></select>
       <label for="modeFilter" class="dim" style="font-size:12.5px;margin-left:10px;">Способ:</label>
-      <select id="modeFilter"><option value="all">Все способы</option><option value="MM">MM</option></select>
+      <select id="modeFilter"><option value="all">Все способы</option><option value="MM">MM</option><option value="truck">truck</option></select>
       <label for="lotFilterInput" class="dim" style="font-size:12.5px;margin-left:10px;">Лот:</label>
       <input type="text" id="lotFilterInput" class="lot-search" style="width:90px;padding:6px 10px;" placeholder="№ лота" inputmode="numeric">
       <button id="filtersResetBtn" class="badge" style="cursor:pointer;border:none;">Сбросить фильтры</button>
-      <span class="month-filter-kpi" id="kpiDaysInline">KPI Days: <b>22</b></span>
+      <span class="month-filter-kpi" id="kpiDaysInline">KPI Days: <b>16</b></span>
     </div>
 
-    <div class="panel situation-row" id="situationRow"><p class="sit-para"><span class="sit-idle">Превышение TT</span> — <b>2&nbsp;056,8 мт.</b></p><p class="sit-para">В пределах TT — <span class="sit-empty">нет лотов в этой группе.</span></p></div>
+    <div class="panel situation-row" id="situationRow"><p class="sit-para"><span class="sit-idle">Превышение TT</span> — <span class="sit-empty">нет лотов в этой группе.</span></p><p class="sit-para">В пределах TT — <b>2&nbsp;032,2 мт.</b></p><p class="sit-para">Погодные условия в порту Актау: <b>в норме.</b></p></div>
 
     <div class="panel chart-panel">
-      <h2 id="chartTitle">Объём по лотам — В пути (Грузия)</h2>
+      <h2 id="chartTitle">Объём по лотам — Порт Актау</h2>
       <div class="home-chart-legend" style="margin-bottom:10px;">
         <span><span class="sw" style="background:var(--text)"></span>В пределах норматива</span>
         <span><span class="sw" style="background:#f4c542"></span>Риск — приближается к нормативу</span>
         <span><span class="sw" style="background:var(--red)"></span>Превышен норматив</span>
       </div>
       <div class="bars-scroll">
-        <div class="bar-row no-plan" id="barsHead" style="margin-bottom:4px;">
-      <div class="dim" style="font-size:10.5px;">Дата входа на этап «В пути (Грузия)»</div>
+        <div class="bar-row" id="barsHead" style="margin-bottom:4px;">
+      <div class="dim" style="font-size:10.5px;">Дата входа на этап «Порт Актау»</div>
       <div class="dim" style="font-size:10.5px;">Лот</div>
       <div class="dim" style="font-size:10.5px;">Объём</div>
       <div class="dim" style="font-size:10.5px;text-align:center;" title="Контейнеры для BTK/MM, траки для truck-режима">Конт./Машины</div>
-      
+      <div class="dim" style="font-size:10.5px;">План. отправка / судно</div>
       <div class="dim" style="font-size:10.5px;text-align:center;">Всего дней · крайний срок</div>
-      <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);">
+      <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);">
       <div class="sg-group">
         <div class="sg-title">Ж/Д (Балхаш → Актау)</div>
         <div class="sg-subrow" style="grid-template-columns:repeat(2,1fr);"><span>Отправка - Прибытие</span><span>Дней</span></div>
@@ -2011,172 +2011,160 @@
       <div class="sg-group">
         <div class="sg-title">Порт Актау</div>
         <div class="sg-subrow" style="grid-template-columns:repeat(2,1fr);"><span>Прибытие - Отправка</span><span>Дней</span></div>
-      </div>
-      <div class="sg-group">
-        <div class="sg-title">Море (Актау → Алят)</div>
-        <div class="sg-subrow" style="grid-template-columns:repeat(2,1fr);"><span>Отправка - Прибытие</span><span>Дней</span></div>
-      </div>
-      <div class="sg-group">
-        <div class="sg-title">Порт Баку / Алят</div>
-        <div class="sg-subrow" style="grid-template-columns:repeat(2,1fr);"><span>Прибытие - Отправка</span><span>Дней</span></div>
-      </div>
-      <div class="sg-group">
-        <div class="sg-title">В пути (Грузия / Турция)</div>
-        <div class="sg-subrow" style="grid-template-columns:repeat(2,1fr);"><span>Отправка - Прибытие</span><span>Дней</span></div>
       </div></div>
     </div>
-        <div class="bars" id="bars"><div class="bar-row no-plan">
-        <div class="bar-date over" style="">16.08.26</div>
-        <div class="lotnum"><div class="lotnum-pills">51 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">July 26</span> <span class="vessel-pill" style="font-size:10px;padding:1px 5px;" title="Судно фидера Батуми">🚢 MSC Onzio</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div><div class="pill" style="background:rgba(93,201,240,.14);color:var(--railway);margin-top:4px;font-size:9px;display:inline-block;" title="Партия разбита на 2 части (278,8 мт всего): 1) В пути (Грузия): 25,6 мт · 2) В пути (Грузия): 253,2 мт">⑂ часть 1 из 2</div></div>
-        <div class="bar-vol">25,59 мт</div>
-        <div class="bar-cont">1</div>
+        <div class="bars" id="bars"><div class="bar-row">
+        <div class="bar-date " style="color:#f4a93f">07.09.26</div>
+        <div class="lotnum"><div class="lotnum-pills">63 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">truck</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">August 26</span> <span class="client-pill" style="font-size:10px;padding:1px 5px;">Trafigura</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Gebze</span></div></div>
+        <div class="bar-vol">508,074 мт</div>
+        <div class="bar-cont">24</div>
+        <div><span class="dim">—</span></div>
         
-        
-        <div class="bar-days " title="KPI-дедлайн: 11.09.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
-          <div class="days-main"><b>54/55</b><span>дн.</span></div>
-          <div class="deadline-line">Дедлайн <strong>11.09.26</strong></div>
-          <div class="pill risk-pill " style="background:rgba(244,197,66,.14);color:#f4c542;" title="Статус: есть риск задержки — прогноз 57 дн. при нормативе 55 дн. Наибольшая задержка на этапе «В пути (Грузия)» — +3 дн. к норме (22 дн.).">возможен риск</div>
+        <div class="bar-days " title="KPI-дедлайн: 12.10.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
+          <div class="days-main"><b>13/45</b><span>дн.</span></div>
+          <div class="deadline-line">Дедлайн <strong>12.10.26</strong></div>
+          
           
         </div>
-        <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>18.07.26 <span class="dim">-</span> 24.07.26</span><span><span class="mg-dwell warn">6 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>24.07.26 <span class="dim">-</span> 06.08.26</span><span><span class="mg-dwell warn">13 д.</span> <span class="wx-mark" title="Погодная задержка именно на этом этапе (Порт Актау): +1 дн.">🌧️+1д</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>06.08.26 <span class="dim">-</span> 08.08.26</span><span><span class="mg-dwell warn">2 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>08.08.26 <span class="dim">-</span> 16.08.26</span><span><span class="mg-dwell over">8 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>16.08.26 <span class="dim">-</span> —</span><span><span class="mg-dwell over">25 д.</span></span></div></div>
-      </div><div class="bar-row no-plan">
-        <div class="bar-date over" style="">16.08.26</div>
-        <div class="lotnum"><div class="lotnum-pills">51 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">July 26</span> <span class="vessel-pill" style="font-size:10px;padding:1px 5px;" title="Судно фидера Батуми">🚢 MSC Onzio</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div><div class="pill" style="background:rgba(93,201,240,.14);color:var(--railway);margin-top:4px;font-size:9px;display:inline-block;" title="Партия разбита на 2 части (278,8 мт всего): 1) В пути (Грузия): 25,6 мт · 2) В пути (Грузия): 253,2 мт">⑂ часть 2 из 2</div></div>
-        <div class="bar-vol">253,239 мт</div>
+        <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>28.08.26 <span class="dim">-</span> 07.09.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>07.09.26 <span class="dim">-</span> —</span><span><span class="mg-dwell ">3 д.</span></span></div></div>
+      </div><div class="bar-row">
+        <div class="bar-date " style="color:#f4a93f">07.09.26</div>
+        <div class="lotnum"><div class="lotnum-pills">64 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">August 26</span> <span class="client-pill" style="font-size:10px;padding:1px 5px;">Trafigura</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div></div>
+        <div class="bar-vol">507,993 мт</div>
+        <div class="bar-cont">24</div>
+        <div><span class="dim">—</span></div>
+        
+        <div class="bar-days " title="KPI-дедлайн: 22.10.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
+          <div class="days-main"><b>13/55</b><span>дн.</span></div>
+          <div class="deadline-line">Дедлайн <strong>22.10.26</strong></div>
+          
+          
+        </div>
+        <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>28.08.26 <span class="dim">-</span> 07.09.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>07.09.26 <span class="dim">-</span> —</span><span><span class="mg-dwell ">3 д.</span></span></div></div>
+      </div><div class="bar-row">
+        <div class="bar-date " style="color:#f4a93f">07.09.26</div>
+        <div class="lotnum"><div class="lotnum-pills">65 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">August 26</span> <span class="client-pill" style="font-size:10px;padding:1px 5px;">Trafigura</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div></div>
+        <div class="bar-vol">254 мт</div>
         <div class="bar-cont">10</div>
+        <div><span class="dim">—</span></div>
         
-        
-        <div class="bar-days " title="KPI-дедлайн: 11.09.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
-          <div class="days-main"><b>54/55</b><span>дн.</span></div>
-          <div class="deadline-line">Дедлайн <strong>11.09.26</strong></div>
-          <div class="pill risk-pill " style="background:rgba(244,197,66,.14);color:#f4c542;" title="Статус: есть риск задержки — прогноз 57 дн. при нормативе 55 дн. Наибольшая задержка на этапе «В пути (Грузия)» — +3 дн. к норме (22 дн.).">возможен риск</div>
-          
-        </div>
-        <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>18.07.26 <span class="dim">-</span> 24.07.26</span><span><span class="mg-dwell warn">6 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>24.07.26 <span class="dim">-</span> 09.08.26</span><span><span class="mg-dwell warn">16 д.</span> <span class="wx-mark" title="Погодная задержка именно на этом этапе (Порт Актау): +1 дн.">🌧️+1д</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>09.08.26 <span class="dim">-</span> 11.08.26</span><span><span class="mg-dwell warn">2 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>11.08.26 <span class="dim">-</span> 16.08.26</span><span><span class="mg-dwell over">5 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>16.08.26 <span class="dim">-</span> —</span><span><span class="mg-dwell over">25 д.</span></span></div></div>
-      </div><div class="bar-row no-plan">
-        <div class="bar-date warn" style="">24.08.26</div>
-        <div class="lotnum"><div class="lotnum-pills">53 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">July 26</span> <span class="vessel-pill" style="font-size:10px;padding:1px 5px;" title="Судно фидера Батуми (план)">🚢 MSC Richka (план)</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div></div>
-        <div class="bar-vol">761,946 мт</div>
-        <div class="bar-cont">28</div>
-        
-        
-        <div class="bar-days " title="KPI-дедлайн: 22.09.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
-          <div class="days-main"><b>43/55</b><span>дн.</span></div>
-          <div class="deadline-line">Дедлайн <strong>22.09.26</strong></div>
+        <div class="bar-days " title="KPI-дедлайн: 22.10.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
+          <div class="days-main"><b>13/55</b><span>дн.</span></div>
+          <div class="deadline-line">Дедлайн <strong>22.10.26</strong></div>
           
           
         </div>
-        <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>29.07.26 <span class="dim">-</span> 11.08.26</span><span><span class="mg-dwell over">13 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>11.08.26 <span class="dim">-</span> 22.08.26</span><span><span class="mg-dwell warn">11 д.</span> <span class="wx-mark" title="Погодная задержка именно на этом этапе (Порт Актау): +2 дн.">🌧️+2д</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>22.08.26 <span class="dim">-</span> 24.08.26</span><span><span class="mg-dwell warn">2 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>24.08.26 <span class="dim">-</span> 31.08.26</span><span><span class="mg-dwell over">7 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>31.08.26 <span class="dim">-</span> —</span><span><span class="mg-dwell over">10 д.</span></span></div></div>
-      </div><div class="bar-row no-plan">
-        <div class="bar-date warn" style="">23.08.26</div>
-        <div class="lotnum"><div class="lotnum-pills">54 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">July 26</span> <span class="vessel-pill" style="font-size:10px;padding:1px 5px;" title="Судно фидера Батуми (план)">🚢 MSC Richka (план)</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div><div class="pill" style="background:rgba(93,201,240,.14);color:var(--railway);margin-top:4px;font-size:9px;display:inline-block;" title="Партия разбита на 2 части (1&nbsp;016,0 мт всего): 1) В пути (Грузия): 440,1 мт · 2) В пути (Грузия): 575,9 мт">⑂ часть 1 из 2</div></div>
-        <div class="bar-vol">440,097 мт</div>
-        <div class="bar-cont">16</div>
+        <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>28.08.26 <span class="dim">-</span> 07.09.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>07.09.26 <span class="dim">-</span> —</span><span><span class="mg-dwell ">3 д.</span></span></div></div>
+      </div><div class="bar-row">
+        <div class="bar-date " style="color:#f4a93f">07.09.26</div>
+        <div class="lotnum"><div class="lotnum-pills">66 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">August 26</span> <span class="client-pill" style="font-size:10px;padding:1px 5px;">Trafigura</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div></div>
+        <div class="bar-vol">698,578 мт</div>
+        <div class="bar-cont">26</div>
+        <div><span class="dim">—</span></div>
         
-        
-        <div class="bar-days " title="KPI-дедлайн: 23.09.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
-          <div class="days-main"><b>42/55</b><span>дн.</span></div>
-          <div class="deadline-line">Дедлайн <strong>23.09.26</strong></div>
+        <div class="bar-days " title="KPI-дедлайн: 22.10.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
+          <div class="days-main"><b>13/55</b><span>дн.</span></div>
+          <div class="deadline-line">Дедлайн <strong>22.10.26</strong></div>
           
           
         </div>
-        <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>30.07.26 <span class="dim">-</span> 09.08.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>09.08.26 <span class="dim">-</span> 21.08.26</span><span><span class="mg-dwell warn">12 д.</span> <span class="wx-mark" title="Погодная задержка именно на этом этапе (Порт Актау): +2 дн.">🌧️+2д</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>21.08.26 <span class="dim">-</span> 23.08.26</span><span><span class="mg-dwell warn">2 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>23.08.26 <span class="dim">-</span> 31.08.26</span><span><span class="mg-dwell over">8 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>31.08.26 <span class="dim">-</span> —</span><span><span class="mg-dwell over">10 д.</span></span></div></div>
-      </div><div class="bar-row no-plan">
-        <div class="bar-date warn" style="">24.08.26</div>
-        <div class="lotnum"><div class="lotnum-pills">54 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">July 26</span> <span class="vessel-pill" style="font-size:10px;padding:1px 5px;" title="Судно фидера Батуми (план)">🚢 MSC Richka (план)</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div><div class="pill" style="background:rgba(93,201,240,.14);color:var(--railway);margin-top:4px;font-size:9px;display:inline-block;" title="Партия разбита на 2 части (1&nbsp;016,0 мт всего): 1) В пути (Грузия): 440,1 мт · 2) В пути (Грузия): 575,9 мт">⑂ часть 2 из 2</div></div>
-        <div class="bar-vol">575,878 мт</div>
-        <div class="bar-cont">21</div>
+        <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>28.08.26 <span class="dim">-</span> 07.09.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>07.09.26 <span class="dim">-</span> —</span><span><span class="mg-dwell ">3 д.</span></span></div></div>
+      </div><div class="bar-row">
+        <div class="bar-date " style="color:#f4a93f">07.09.26</div>
+        <div class="lotnum"><div class="lotnum-pills">67 <span class="mode-pill" style="font-size:10px;padding:1px 5px;">MM</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;">August 26</span> <span class="client-pill" style="font-size:10px;padding:1px 5px;">Glencore</span> <span class="mode-pill" style="font-size:10px;padding:1px 5px;white-space:normal;line-height:1.25;text-align:center;">Derince</span></div></div>
+        <div class="bar-vol">63,524 мт</div>
+        <div class="bar-cont">3</div>
+        <div><span class="dim">—</span></div>
         
-        
-        <div class="bar-days " title="KPI-дедлайн: 23.09.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
-          <div class="days-main"><b>42/55</b><span>дн.</span></div>
-          <div class="deadline-line">Дедлайн <strong>23.09.26</strong></div>
+        <div class="bar-days " title="KPI-дедлайн: 22.10.26. Факт считается по дням в пути; просрочка — по календарным дням после официального дедлайна.">
+          <div class="days-main"><b>13/55</b><span>дн.</span></div>
+          <div class="deadline-line">Дедлайн <strong>22.10.26</strong></div>
           
           
         </div>
-        <div class="stage-grid" style="grid-template-columns:repeat(5, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>30.07.26 <span class="dim">-</span> 09.08.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>09.08.26 <span class="dim">-</span> 22.08.26</span><span><span class="mg-dwell warn">13 д.</span> <span class="wx-mark" title="Погодная задержка именно на этом этапе (Порт Актау): +2 дн.">🌧️+2д</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>22.08.26 <span class="dim">-</span> 24.08.26</span><span><span class="mg-dwell warn">2 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>24.08.26 <span class="dim">-</span> 31.08.26</span><span><span class="mg-dwell over">7 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>31.08.26 <span class="dim">-</span> —</span><span><span class="mg-dwell over">10 д.</span></span></div></div>
+        <div class="stage-grid" style="grid-template-columns:repeat(2, 92px);"><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>28.08.26 <span class="dim">-</span> 07.09.26</span><span><span class="mg-dwell over">10 д.</span></span></div><div class="sg-cell" style="grid-template-columns:repeat(2,1fr);"><span>07.09.26 <span class="dim">-</span> —</span><span><span class="mg-dwell ">3 д.</span></span></div></div>
       </div></div>
       </div>
     </div>
 
     <div class="panel" style="display:none;">
-      <h2 id="tableTitle">Лоты на этапе «В пути (Грузия)»</h2>
+      <h2 id="tableTitle">Лоты на этапе «Порт Актау»</h2>
       <div class="dim" id="tableSub" style="font-size:11.5px;margin:-8px 0 14px;">Дата в колонке «Лот» = отправка из Балхаша (Balkhas Disp.) — соответствует «Всего дней» и KPI</div>
       <table>
         <thead id="tableHead">
     <tr>
       <th>Лот</th><th>Месяц</th><th>Направление</th><th>Способ</th>
       <th style="text-align:right;">Объём, мт</th>
-      
+      <th style="text-align:right;" title="Контейнеры для BTK/MM, траки для truck-режима">Конт./Машины</th>
       <th>Этапы (дней)</th>
       <th style="text-align:right;">Дней на этапе</th>
       <th style="text-align:right;">Всего дней</th><th style="text-align:right;">KPI</th><th>Крайний срок (KPI)</th><th>Статус</th>
     </tr></thead>
         <tbody id="tableBody"><tr>
-      <td><div class="stage-date">18.07.26</div><b>51</b></td>
-      <td>July 26</td>
-      <td>Derince</td>
-      <td><span class="mode-pill">MM</span></td>
-      <td style="text-align:right;">25,59<div class="dim" style="font-size:10.5px;margin-top:3px;" title="Доставлено грузовиками: 0,0 мт · в пути: 25,6 мт">0/1 машин</div></td>
-      
-      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span><span class="stagepill">Актау: 8</span></div></td>
-      <td style="text-align:right;">25 дн.</td>
-      <td style="text-align:right;">54</td>
-      <td style="text-align:right;">55</td>
-      <td>11.09.26</td>
-      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span> <span class="dim" style="font-size:10.5px;">(из них по погоде: 1 дн.)</span></td>
+      <td><div class="stage-date">28.08.26</div><b>63</b></td>
+      <td>August 26</td>
+      <td>Gebze</td>
+      <td><span class="mode-pill">truck</span></td>
+      <td style="text-align:right;">508,074</td>
+      <td style="text-align:right;">24</td>
+      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span></div></td>
+      <td style="text-align:right;">3 дн.</td>
+      <td style="text-align:right;">13</td>
+      <td style="text-align:right;">45</td>
+      <td>12.10.26</td>
+      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span></td>
     </tr><tr>
-      <td><div class="stage-date">18.07.26</div><b>51</b></td>
-      <td>July 26</td>
+      <td><div class="stage-date">28.08.26</div><b>64</b></td>
+      <td>August 26</td>
       <td>Derince</td>
       <td><span class="mode-pill">MM</span></td>
-      <td style="text-align:right;">253,239<div class="dim" style="font-size:10.5px;margin-top:3px;" title="Доставлено грузовиками: 0,0 мт · в пути: 253,2 мт">0/10 машин</div></td>
-      
-      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span><span class="stagepill">Актау: 8</span></div></td>
-      <td style="text-align:right;">25 дн.</td>
-      <td style="text-align:right;">54</td>
+      <td style="text-align:right;">507,993</td>
+      <td style="text-align:right;">24</td>
+      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span></div></td>
+      <td style="text-align:right;">3 дн.</td>
+      <td style="text-align:right;">13</td>
       <td style="text-align:right;">55</td>
-      <td>11.09.26</td>
-      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span> <span class="dim" style="font-size:10.5px;">(из них по погоде: 1 дн.)</span></td>
+      <td>22.10.26</td>
+      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span></td>
     </tr><tr>
-      <td><div class="stage-date">29.07.26</div><b>53</b></td>
-      <td>July 26</td>
+      <td><div class="stage-date">28.08.26</div><b>65</b></td>
+      <td>August 26</td>
       <td>Derince</td>
       <td><span class="mode-pill">MM</span></td>
-      <td style="text-align:right;">761,946</td>
-      
-      <td><div class="stagepills"><span class="stagepill">Ж/Д: 3</span></div></td>
-      <td style="text-align:right;">17 дн.</td>
-      <td style="text-align:right;">43</td>
+      <td style="text-align:right;">254</td>
+      <td style="text-align:right;">10</td>
+      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span></div></td>
+      <td style="text-align:right;">3 дн.</td>
+      <td style="text-align:right;">13</td>
       <td style="text-align:right;">55</td>
-      <td>22.09.26</td>
-      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span> <span class="dim" style="font-size:10.5px;">(из них по погоде: 2 дн.)</span></td>
+      <td>22.10.26</td>
+      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span></td>
     </tr><tr>
-      <td><div class="stage-date">30.07.26</div><b>54</b></td>
-      <td>July 26</td>
+      <td><div class="stage-date">28.08.26</div><b>66</b></td>
+      <td>August 26</td>
       <td>Derince</td>
       <td><span class="mode-pill">MM</span></td>
-      <td style="text-align:right;">440,097</td>
-      
-      <td><div class="stagepills"><span class="stagepill">Ж/Д: 2</span></div></td>
-      <td style="text-align:right;">18 дн.</td>
-      <td style="text-align:right;">42</td>
+      <td style="text-align:right;">698,578</td>
+      <td style="text-align:right;">26</td>
+      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span></div></td>
+      <td style="text-align:right;">3 дн.</td>
+      <td style="text-align:right;">13</td>
       <td style="text-align:right;">55</td>
-      <td>23.09.26</td>
-      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span> <span class="dim" style="font-size:10.5px;">(из них по погоде: 2 дн.)</span></td>
+      <td>22.10.26</td>
+      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span></td>
     </tr><tr>
-      <td><div class="stage-date">30.07.26</div><b>54</b></td>
-      <td>July 26</td>
+      <td><div class="stage-date">28.08.26</div><b>67</b></td>
+      <td>August 26</td>
       <td>Derince</td>
       <td><span class="mode-pill">MM</span></td>
-      <td style="text-align:right;">575,878</td>
-      
-      <td><div class="stagepills"><span class="stagepill">Ж/Д: 2</span></div></td>
-      <td style="text-align:right;">17 дн.</td>
-      <td style="text-align:right;">42</td>
+      <td style="text-align:right;">63,524</td>
+      <td style="text-align:right;">3</td>
+      <td><div class="stagepills"><span class="stagepill">Ж/Д: 6</span></div></td>
+      <td style="text-align:right;">3 дн.</td>
+      <td style="text-align:right;">13</td>
       <td style="text-align:right;">55</td>
-      <td>23.09.26</td>
-      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span> <span class="dim" style="font-size:10.5px;">(из них по погоде: 2 дн.)</span></td>
+      <td>22.10.26</td>
+      <td><span class="pill" style="background:rgba(93,201,240,.12);color:var(--railway);">в пути</span></td>
     </tr></tbody>
       </table>
     </div>
@@ -2536,11 +2524,11 @@
         </div>
         <div class="ra-btn-row">
           <button id="raGhPublishBtn" class="ra-btn">📤 Опубликовать на GitHub</button>
-          <span id="raGhStatus" class="ra-test-status"></span>
+          <span id="raGhStatus" class="ra-test-status">публикация…</span>
         </div>
         <div class="ra-btn-row" style="margin-top:6px;">
           <button id="raGhAndWebhookBtn" class="ra-btn ra-btn-primary">🚀 Отправить на Webhook + опубликовать на GitHub</button>
-          <span id="raGhWebhookStatus" class="ra-test-status">публикация на GitHub…</span>
+          <span id="raGhWebhookStatus" class="ra-test-status"></span>
         </div>
       </div>
     </div>
@@ -4732,14 +4720,38 @@ function renderHomeMode(lots){
     <div class="ms-legend" style="margin-top:14px;">${legend}</div>`;
 }
 
+function sumVolContByLot(rows){
+  // Dedup by lot using the same signature-based approach as monthlyAggFromLots: a
+  // lot's remaining/delivered truck_progress is often duplicated across sibling rows
+  // (same aggregate repeated), and once a fragment is fully delivered its own row
+  // volume is zeroed (meaning "nothing left"), which would silently drop its true
+  // contribution from a naive per-row sum. Using truck_progress's own total instead
+  // captures every genuinely distinct part exactly once.
+  const seenSig = {};
+  let volume = 0, container = 0;
+  rows.forEach(l=>{
+    const tp = l.truck_progress;
+    if(tp){
+      if(!seenSig[l.lot]) seenSig[l.lot] = new Set();
+      const sig = [tp.total,tp.delivered,tp.vol_delivered,tp.ontheway,tp.vol_ontheway,tp.at_port,tp.vol_at_port].join('|');
+      if(seenSig[l.lot].has(sig)) return;
+      seenSig[l.lot].add(sig);
+      volume += (tp.vol_at_port||0)+(tp.vol_ontheway||0)+(tp.vol_delivered||0);
+      container += tp.total||0;
+    } else {
+      volume += l.volume||0;
+      container += Number(l.container)||0;
+    }
+  });
+  return {volume, container};
+}
 function renderHomeStatus(lots){
   const order = ['Railway','Aktau port','Sea','Baku port','Georgia'];
   let rows = '';
   order.forEach(key=>{
     const matching = lots.filter(l=>l.status===key);
     if(!matching.length) return;
-    const vol = matching.reduce((a,b)=>a+(b.volume||0),0);
-    const cont = matching.reduce((a,b)=>a+(Number(b.container)||0),0);
+    const {volume:vol, container:cont} = sumVolContByLot(matching);
     const nLots = uniqueLotCount(matching);
     const info = STATUS_INFO[key];
     rows += `
@@ -4753,8 +4765,7 @@ function renderHomeStatus(lots){
   // needs the old mode-based approximation.
   const ontheway = lots.filter(l=>l.status==='Ontheway');
   if(ontheway.length){
-    const vol = ontheway.reduce((a,b)=>a+(b.volume||0),0);
-    const cont = ontheway.reduce((a,b)=>a+(Number(b.container)||0),0);
+    const {volume:vol, container:cont} = sumVolContByLot(ontheway);
     const nLots = uniqueLotCount(ontheway);
     const info = STATUS_INFO['Ontheway'];
     rows += `
@@ -4765,8 +4776,7 @@ function renderHomeStatus(lots){
   }
   const delivered = lots.filter(l=>l.status==='Delivered');
   if(delivered.length){
-    const vol = delivered.reduce((a,b)=>a+(b.volume||0),0);
-    const cont = delivered.reduce((a,b)=>a+(Number(b.container)||0),0);
+    const {volume:vol, container:cont} = sumVolContByLot(delivered);
     const nLots = uniqueLotCount(delivered);
     const info = STATUS_INFO['Delivered'];
     rows += `
